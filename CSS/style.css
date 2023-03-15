@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
 .site-header{
     background-color: #fff;
 }
@@ -26,6 +39,16 @@ a{
     border-radius: 4px;
     color: white;
 }
+/*Header section*/
+
+
+
+
+
+
+
+
+
 
 /*Hero section*/
 
@@ -119,12 +142,9 @@ a{
 
 
 .footer__section ul {
-
+    margin-top: 25px;
 }
-.footer__section--text{
-    width: 224px;
-    height: 19px;
-
+.footer__section--text ul li a{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
